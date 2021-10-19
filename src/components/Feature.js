@@ -5,6 +5,7 @@ import AnimatedShape from './AnimatedShape';
 
 const Container = styled.div`
     display: flex;
+    height: 100%;
 `
 
 const Left = styled.div`
@@ -12,7 +13,9 @@ const Left = styled.div`
 `
 
 const Image = styled.img`
-
+    margin-top: 5rem;
+    width: 100%;
+    height: 90%;
 `
 
 const Right = styled.div`

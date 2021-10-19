@@ -68,6 +68,8 @@ const Right = styled.div`
 
 const Image = styled.img`
     width: 100%;
+    height: 90%;
+    margin-top: 5rem;
 `
 
 const Intro = () => {
