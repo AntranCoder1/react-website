@@ -48,6 +48,9 @@ const PriceShape = styled.div`
 `
 
 function App() {
+
+  const smallScreen = window.screen.width <= 480 ? true : false;
+
   return (
     <>
       <Container>
@@ -61,7 +64,7 @@ function App() {
       </Container>
       <Container>
         <Services />
-        <ServicesShape />
+        { !smallScreen && <ServicesShape /> }
       </Container>
       <Container>
         <Price />
